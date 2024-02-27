@@ -122,6 +122,10 @@ strong {
 	background-image: url('/images/icons/clock.svg');
 }
 
+.container {
+	padding: 0 1.5em;
+}
+
 /* Main */
 main,
 main > .container {
