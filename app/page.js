@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import equilibriumImg from '@/assets/equilibrium.jpg';
-import avatarImg from '@/assets/avatar.png';
+import equilibriumImg from '@/assets/images/equilibrium.jpg';
+import avatarImg from '@/assets/images/avatar.png';
 
 export default function Home() {
 	return (
