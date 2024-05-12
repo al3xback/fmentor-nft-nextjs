@@ -1,24 +1,25 @@
+import Link from 'next/link';
+
 export default function Footer() {
 	return (
-		<footer>
+		<footer className="footer">
 			<div className="container">
 				<p>
 					Challenge by{' '}
-					<a
+					<Link
 						href="https://www.frontendmentor.io?ref=challenge"
 						className="btn btn--link"
-						rel="noopener noreferrer"
 						target="_blank">
 						Frontend Mentor
-					</a>
+					</Link>
 					. Coded by{' '}
-					<a
+					<Link
 						href="https://github.com/al3xback"
 						className="btn btn--link"
 						rel="noopener noreferrer"
 						target="_blank">
 						al3xback
-					</a>
+					</Link>
 					.
 				</p>
 			</div>

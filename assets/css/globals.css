@@ -29,24 +29,12 @@ a {
 	text-decoration: none;
 }
 
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	border: 0;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: inherit;
 	font-weight: var(--font-weight-600);
 	color: var(--color-soft-blue);
 	line-height: 1.2727;
@@ -80,6 +68,10 @@ p {
 strong {
 	font-weight: var(--font-weight-600);
 }
+
+/* ========================= */
+/* General Components */
+/* ========================= */
 
 .btn {
 	display: inline-flex;
@@ -122,21 +114,54 @@ strong {
 	background-image: url('/images/icons/clock.svg');
 }
 
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	border: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+}
+
 .container {
 	padding: 0 1.5em;
 }
 
+/* ========================= */
+/* Not Found */
+/* ========================= */
+
+.not-found {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.6em;
+}
+
+.not-found h2 {
+	margin-bottom: 1em;
+}
+
+/* ========================= */
 /* Main */
-main,
-main > .container {
+/* ========================= */
+
+.main,
+.main > .container {
 	display: flex;
 	flex: auto;
 }
 
-main > .container {
+.main > .container {
 	justify-content: center;
 	align-items: center;
 }
+
+/* ========================= */
+/* Card */
+/* ========================= */
 
 .card,
 .card__image,
@@ -258,13 +283,17 @@ main > .container {
 	}
 }
 
+/* ========================= */
 /* Footer */
-footer,
-footer .container {
+/* ========================= */
+
+.footer,
+.footer .container {
 	display: flex;
+	flex-direction: column;
 }
 
-footer {
+.footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -274,11 +303,6 @@ footer {
 	text-align: center;
 }
 
-footer .container,
-footer p {
-	flex: auto;
-}
-
-footer p {
+.footer p {
 	font-size: inherit;
 }
