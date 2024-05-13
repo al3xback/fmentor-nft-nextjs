@@ -10,8 +10,8 @@ export default function Card() {
 			<div className="card__image">
 				<Image
 					src={equilibriumImg}
-					width={500}
-					height={500}
+					width={302}
+					height={302}
 					alt="Equilibrium"
 					priority
 				/>
@@ -39,8 +39,8 @@ export default function Card() {
 					<Image
 						src={avatarImg}
 						className="card__author-img"
-						width="33"
-						height="33"
+						width={33}
+						height={33}
 						alt="Jules Wyvern"
 					/>
 					<span className="card__author-desc">
