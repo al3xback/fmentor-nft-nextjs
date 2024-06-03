@@ -1,9 +1,11 @@
 import Link from 'next/link';
 
+import classes from './footer.module.css';
+
 export default function Footer() {
 	return (
-		<footer className="footer">
-			<div className="container">
+		<footer className={classes.footer}>
+			<div className={classes.container}>
 				<p>
 					Challenge by{' '}
 					<Link

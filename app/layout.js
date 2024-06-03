@@ -2,11 +2,11 @@ import { outfit } from '@/assets/fonts';
 import '@/assets/css/reset.css';
 import '@/assets/css/globals.css';
 
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '@/components/header/header';
+import Footer from '@/components/footer/footer';
 
 export const metadata = {
-	title: 'Frontend Mentor | NFT Preview Card Component | Next.js',
+	title: 'Frontend Mentor | NFT Preview Card Component',
 	description: 'Frontend Mentor - NFT preview card component solution.',
 };
 
