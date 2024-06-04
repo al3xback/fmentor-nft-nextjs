@@ -2,8 +2,8 @@ import { outfit } from '@/assets/fonts';
 import '@/assets/css/reset.css';
 import '@/assets/css/globals.css';
 
-import Header from '@/components/header/header';
-import Footer from '@/components/footer/footer';
+import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
 
 export const metadata = {
 	title: 'Frontend Mentor | NFT Preview Card Component',
